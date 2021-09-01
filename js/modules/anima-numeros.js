@@ -28,5 +28,4 @@ export default function initAnimaNumeros() {
 
   const observerTarget = document.querySelector('.numeros');
   observer.observe(observerTarget, { attributes: true });
-
 }
